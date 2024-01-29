@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archit Pathak's Portfolio - Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Archit Pathak's Portfolio - Projects</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Assignment.html">Home</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a herf="me.html">About Me</a></li>
+            <li><a herf="contact.html">Contact Me</a><li>
+            <!-- Add other navigation items as needed -->
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Projects</h2>
+
+        <h3>Database for a Medical Store</h3>
+        <img src="medicalstore.jpg" alt="Project Image 1">
+
+        <p>Project Overview:
+The goal of this project is to create a database management system for a medical store that will efficiently handle information related to medicines, suppliers, and sales. The system will be implemented using Python for the application logic and SQL for the database management.</p>
+<p>Features:
+Medicine Information:
+
+Store details about each medicine, including name, dosage, manufacturer, price, and available quantity.
+Track expiry dates of medicines.
+Supplier Information:
+
+Maintain a list of suppliers with details such as name, contact information, and the medicines they supply.
+Inventory Management:
+
+Update and track the stock levels of medicines after each purchase or sale.
+Set up alerts for low-stock medicines or expired products.
+Sales Management:
+
+Record details of each sale, including the medicines sold, quantity, date, and total cost.
+Generate invoices for customers.
+User Authentication:
+
+Implement a login system to ensure secure access to the database.
+Differentiate between admin and staff roles with appropriate privileges.
+Reporting:
+
+Generate reports such as sales summaries, stock levels, and expiry alerts.</p>
+<p>Technologies Used:
+Programming Language: Python
+Database Management System: MySQL</p>
+<p>Database Schema:
+Medicine Table:
+
+MedicineID (Primary Key)
+Name
+Dosage
+Manufacturer
+Price
+Quantity
+ExpiryDate
+Supplier Table:
+
+SupplierID (Primary Key)
+Name
+ContactInformation
+Sales Table:
+
+SaleID (Primary Key)
+MedicineID (Foreign Key)
+QuantitySold
+TotalCost
+SaleDate</p>
+<p>Implementation Steps:
+Set up the database using SQL.
+Create Python scripts for managing medicine, supplier, and sales information.
+Implement user authentication.
+Develop the user interface for easy interaction with the database.
+Implement inventory management functionalities.
+Create reporting functionalities.</p>
+
+        <h3>Face Recognition using Python</h3>
+        <img src="facerecognition.jpeg" alt="Project Image 2"style="max-width: 100%;">
+
+        <p>Project Overview:
+The Face Recognition System is a Python-based project that aims to implement facial recognition technology to identify and authenticate individuals using their unique facial features. This system utilizes computer vision and machine learning techniques to detect and recognize faces in images or real-time video streams.</p>
+        <p>Key Features:
+Face Detection: The system uses a face detection algorithm to locate and extract facial features from images or video frames.
+
+Facial Feature Extraction: Facial landmarks and features are extracted from the detected faces, enabling the system to create a unique representation of each individual.
+
+Model Training: A machine learning model is trained using a dataset of facial images to learn and recognize facial patterns. Popular libraries like OpenCV and Dlib can be employed for face recognition tasks.
+
+Database Integration: The system integrates with a database to store and retrieve facial feature representations of known individuals. This allows for efficient comparison during recognition.
+
+Real-time Face Recognition: The system is capable of performing real-time face recognition on live video feeds, making it suitable for applications such as surveillance and access control.
+
+User Authentication: Once a face is recognized, the system can authenticate the individual against the stored database and grant access if the person is identified as authorized.
+
+Logging and Reporting: The system maintains a log of recognized faces, timestamps, and relevant details. This log can be used for auditing and reporting purposes.
+
+Graphical User Interface (GUI): A user-friendly GUI is implemented to provide a seamless experience for users. This interface may include features like adding new faces to the database, configuring settings, and viewing recognition results.</p>
+        <p>Technology Stack:
+Programming Language: Python
+Libraries: OpenCV, Dlib, NumPy, Pandas
+Machine Learning Framework: Scikit-learn, TensorFlow, or PyTorch
+Database: SQLite or MySQL for local storage; can be extended to support cloud-based databases for scalability.
+</p>
+        <p>Implementation Steps:
+Install Dependencies: Set up the development environment by installing necessary Python libraries and frameworks.
+
+Data Collection: Gather a diverse dataset of facial images for training the recognition model.
+
+Preprocessing: Preprocess the facial images to enhance the quality and remove noise, ensuring better model performance.
+
+Model Training: Train the face recognition model using a suitable machine learning algorithm.
+
+Database Integration: Implement a database to store facial feature representations of known individuals.
+
+Real-time Face Recognition: Develop the real-time face recognition module, integrating it with the trained model and database.
+
+GUI Development: Create a graphical user interface for interacting with the system.
+
+Testing and Validation: Test the system with various scenarios to ensure accurate and reliable face recognition.
+
+Deployment: Deploy the Face Recognition System in the desired environment, such as on a local server or in the cloud.</p>
+        <p>Future Enhancements:
+Integration with cloud-based face recognition services.
+Facial emotion recognition for enhanced human-computer interaction.
+Improved security features, such as anti-spoofing mechanisms.
+Integration with third-party applications and systems.</p>
+        <p>Conclusion:
+The Face Recognition System using Python provides an efficient and secure solution for identity verification and access control. It can be customized for various applications, including security systems, attendance management, and user authentication. The modular design allows for easy integration with additional features and technologies in the future.</p>
+
+
+        <h3>Website for a random gradient generator</h3>
+<img src="screenshot_2024-01-29_213818.png" alt="Project Image 4" style="max-width: 100%;">
+
+        <p>Overview:
+The Gradient Generator Website is a simple web application that allows users to create gradients dynamically. Users can either generate a random gradient or input their custom color codes to generate a personalized gradient. The website visually displays the created gradient as the background, providing a real-time preview. Additionally, the colors used in the generated gradient are presented to the user.</p>
+
+<p>Features:
+Clicking the "Generate Random" button generates a random gradient in the background.
+The colors used in the generated gradient are displayed below the buttons.
+Generate Custom Gradient:
+
+Clicking the "Generate Custom" button prompts the user to enter two color codes.
+Upon entering valid color codes, a gradient using the specified colors is generated as the background.
+The colors used in the generated gradient are displayed below the buttons.
+Responsive Design:
+
+The website is designed to be responsive, ensuring a consistent user experience across different devices.</p>
+<p>Implementation:
+HTML:
+
+Structured the web page with HTML, including sections for gradient display, colors used, and buttons.
+CSS:
+
+Styled the webpage using CSS to achieve a visually appealing layout.
+Ensured responsiveness for a seamless experience on various devices.
+JavaScript:
+
+Implemented JavaScript functions to handle the generation of random and custom gradients.
+Validated user input for custom gradients to ensure proper color codes.
+Dynamically updated the background gradient and displayed the colors used.</p>
+<p>Technologies Used:
+HTML5
+CSS3
+JavaScript (ES6)</p>
+<p>How to Use:
+Open the website in a web browser.
+Click the "Generate Random" button to create a random gradient.
+Alternatively, click the "Generate Custom" button to input your custom color codes.
+Follow the prompts to enter valid color codes for a custom gradient.
+View the dynamically generated gradient in the background.
+Colors used in the gradient are displayed below the buttons.</p>
+<p>Conclusion:
+The Gradient Generator Website provides a simple yet interactive platform for users to experiment with color gradients. Its easy-to-use interface makes it accessible to users with varying levels of web proficiency. The project can be expanded further by incorporating additional features based on user feedback and requirements.</p>
+    </section>
+
+</body>
+
+</html>
